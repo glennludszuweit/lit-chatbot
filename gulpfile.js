@@ -3,15 +3,15 @@ import uglify from 'gulp-uglify';
 import concat from 'gulp-concat';
 
 const scripts = [
-  './src/assets/js/assets/smoothscroll-polyfill.js',
-  './src/assets/js/assets/socket.io.js',
-  './src/assets/js/assets/tail.datetime.min.js',
-  './src/assets/js/assets/webcomponents-bundle.js',
-  './src/assets/js/controllers/chat-controller.js',
-  './src/assets/js/controllers/socket-controller.js',
+  './src/js/assets/smoothscroll-polyfill.js',
+  './src/js/assets/socket.io.js',
+  './src/js/assets/tail.datetime.min.js',
+  './src/js/assets/webcomponents-bundle.js',
+  './src/js/controllers/chat-controller.js',
+  './src/js/controllers/socket-controller.js',
 ];
 
-const dest = './src/assets/js';
+const dest = './src/js';
 
 gulp.task('watch', function () {
   gulp.watch(scripts, gulp.series(['chatbot']));

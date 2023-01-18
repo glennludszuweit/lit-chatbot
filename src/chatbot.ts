@@ -1,44 +1,51 @@
-import {LitElement, html, css} from 'lit';
+import {LitElement, html} from 'lit';
 import {customElement, property} from 'lit/decorators.js';
 
-@customElement('chat-bot')
+@customElement('chatbot-element')
 export class MyElement extends LitElement {
-  // Styles are scoped to this element: they won't conflict with styles
-  // on the main page or in other components. Styling API can be exposed
-  // via CSS custom properties.
-  static override styles = css`
-    :host {
-      display: inline-block;
-      padding: 10px;
-      background: lightgray;
-    }
-    .planet {
-      color: var(--planet-color, blue);
-    }
-  `;
+  @property({type: String}) chatbotTheme = '../src/css/variables.css';
 
-  // Define reactive properties--updating a reactive property causes
-  // the component to update.
-  @property() greeting = 'Hello';
-  @property() planet = 'World';
+  constructor() {
+    super();
+    (window as any).chatSettings = {
+      endpoint: 'https://sandbox.caiplatform.com/webAdapterSocket',
+      path: '/backend-channel-adaptor-web/socket.io',
+      assetsBasePath: 'https://sandbox.caiplatform.com/frontend-web-chat/',
+      channelAdaptorPath: 'http://backend-channel-adaptor-web:11006',
+      masterBotID: '63a9f269-f5cf-4cfd-9850-b295db908d49',
+      voiceEnabled: true,
+      chatbotName: 'Deutschlandticket',
+      storageType: 'sessionStorage',
+      theme: 'dbregioChatbot.css',
+      checkValidateLogin: false,
+    };
 
-  // The render() method is called any time reactive properties change.
-  // Return HTML in a string template literal tagged with the `html`
-  // tag function to describe the component's internal DOM.
-  // Expressions can set attribute values, property values, event handlers,
-  // and child nodes/text.
-  override render() {
-    return html`
-      <span @click=${this.togglePlanet}
-        >${this.greeting}
-        <span class="planet">${this.planet}</span>
-      </span>
-    `;
+    const meta = document.querySelector('meta');
+    meta?.setAttribute('name', 'viewport');
+    meta?.setAttribute(
+      'content',
+      'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0'
+    );
   }
 
-  // Event handlers can update the state of @properties on the element
-  // instance, causing it to re-render
-  togglePlanet() {
-    this.planet = this.planet === 'World' ? 'Mars' : 'World';
+  loadStyles(styleSrc: string) {
+    const style = document.createElement('link');
+    style.rel = 'stylesheet';
+    style.href = styleSrc;
+    style.type = 'text/css';
+    document.head.appendChild(style);
+  }
+
+  loadScript() {
+    let script = document.createElement('script');
+    script.src = '../src/js/deutschlandticket.min.js';
+    document.head.appendChild(script);
+  }
+
+  override render() {
+    return html`
+      ${this.loadStyles(this.chatbotTheme)}
+      ${this.loadStyles('../src/css/streckenagent.css')} ${this.loadScript()}
+    `;
   }
 }

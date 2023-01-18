@@ -1,0 +1,24 @@
+:root {
+    /* colors */
+    --color-primary: #282d37;
+    --color-secondary: #424242;
+    --color-tertiary: #878c96;
+    --color-fourtiary: #646973;
+  
+    --color-error: #c50014;
+    --color-white: #fff;
+  
+    --background-primary: #272d38;
+    --background-secondary: #f0f3f5;
+    --background-tertiary: #d7dce1;
+  
+    /* sizes */
+    --height-primary: 40px;
+    --width-primary: 40px;
+  
+    --border-radius-primary: 5px;
+    --border-radius-secondary: 8px;
+  
+    /* specific styles */
+    --chat-messages-height: calc(100% - 63px - 49px - 40px);
+  }
