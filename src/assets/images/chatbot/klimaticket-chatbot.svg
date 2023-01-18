@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="28px" viewBox="0 0 25 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5 Copy 3</title>
+    <g id="Chatbot-Klimaticket" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="FAB-w/-updated-Icon-Copy-28" transform="translate(-116.000000, -34.000000)" stroke-width="2">
+            <g id="Group" transform="translate(100.000000, 22.000000)">
+                <g id="Group-5-Copy-3" transform="translate(17.000000, 13.000000)">
+                    <path d="M10,0 L2,0 C0.8954305,2.02906125e-16 -5.7935996e-16,0.8954305 0,2 L0,24 C1.3527075e-16,25.1045695 0.8954305,26 2,26 L16,26 C17.1045695,26 18,25.1045695 18,24 L18,17 L18,17" id="Path" stroke="#282D37" stroke-linejoin="round"></path>
+                    <line x1="4" y1="20" x2="5" y2="20" id="Path-2" stroke="#282D37"></line>
+                    <line x1="13" y1="20" x2="14" y2="20" id="Path-2-Copy-2" stroke="#282D37"></line>
+                    <line x1="8.5" y1="20" x2="9.5" y2="20" id="Path-2-Copy" stroke="#282D37"></line>
+                    <g id="Group-2" transform="translate(6.000000, 0.000000)" stroke="#63A615" stroke-linejoin="round">
+                        <path d="M5,13 C6.33333333,14 7.66666667,14.3333333 9,14 C15,12.6666667 17.1666667,8 15.5,0 C9.16666667,0.333333333 5.33333333,3.33333333 4,9" id="Path-3"></path>
+                        <path d="M12.5,4.5 C10.5,8.5 8,11.3333333 5,13 C3.33333333,14 1.66666667,14.5 0,14.5" id="Path-4"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

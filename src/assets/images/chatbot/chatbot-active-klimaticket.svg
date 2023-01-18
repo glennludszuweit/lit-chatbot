@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="21px" viewBox="0 0 17 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <g id="Chatbot-Klimaticket" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bot_Mobile_Buttons-Copy-9" transform="translate(-24.000000, -105.000000)">
+            <g id="Bot-Header" transform="translate(0.000000, 92.000000)">
+                <g id="Group-7-Copy-18" transform="translate(16.000000, 8.000000)">
+                    <g id="Group-3" transform="translate(9.000000, 6.986293)">
+                        <g id="Group-2" transform="translate(0.000000, 0.013707)">
+                            <path d="M5,0 L2,0 C0.8954305,2.02906125e-16 -1.3527075e-16,0.8954305 0,2 L0,16 C1.3527075e-16,17.1045695 0.8954305,18 2,18 L10,18 C11.1045695,18 12,17.1045695 12,16 L12,14 L12,14" id="Path-5" stroke="#282D37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <circle id="Oval" fill="#282D37" cx="3" cy="14" r="1"></circle>
+                            <circle id="Oval-Copy-2" fill="#282D37" cx="6" cy="14" r="1"></circle>
+                            <circle id="Oval-Copy-3" fill="#282D37" cx="9" cy="14" r="1"></circle>
+                        </g>
+                        <g id="Group" transform="translate(4.000000, 0.000000)" stroke="#63A615" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <path d="M3,9.01370743 C3.66666667,9.6803741 4.66666667,10.0137074 6,10.0137074 C9.33333333,10.0137074 10.6666667,6.6803741 10,0.013707432 C5.49425287,-0.170200614 2.82758621,1.49646605 2,5.01370743" id="Path-3-Copy"></path>
+                            <path d="M7.5,4.01370743 C5.83333333,6.6803741 4.33333333,8.34704077 3,9.01370743 C1.66666667,9.6803741 0.666666667,10.0137074 0,10.0137074" id="Path-4-Copy"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
